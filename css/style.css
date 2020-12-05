@@ -1,0 +1,78 @@
+*{margin: 0; padding: 0;}
+
+body {
+	background-image: url("images/bg.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: scroll;
+	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	font-family: Helvetica, Sans-Serif;
+	background-color: #333;
+	text-align: center;
+}
+.logo a, .navbar-item a{
+	padding: 10px 30px;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	display: block;
+	transition: 0.5s;
+}
+.navbar-item ul{
+	display: flex;
+}
+.navbar-item li{
+	list-style: none;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	transition: 0.5s;
+}
+.navbar-item li:hover{
+	background-color: orange;
+}
+.navbar-item a:hover{
+	color: #333;
+}
+.logo{
+	margin-top: 5px;
+}
+.logo a:hover{
+	color: orange;
+}
+.isi{
+	color: white;
+	margin-left: 75px;
+	margin-top: 30px;
+}
+.isi h3{
+	margin-top: 10px;
+}
+.paragraf{
+	margin-top: 5px;
+}
+.paragraf p{
+	line-height: 1.5rem;
+}
+.list{
+	margin-top: 20px;
+}
+.list li{
+	text-decoration: none;
+	list-style-type: none;
+	margin-top: 8px;
+}
+.video-yt{
+	margin-top: 30px; 
+	margin-left: 75px;
+}
